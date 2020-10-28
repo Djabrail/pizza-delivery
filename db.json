@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Сырная",
+      "image": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+      "price": 250,
+      "category": [
+        {
+          "value": "vegetarian",
+          "label": "Вегетарианская"
+        }
+      ],
+      "type": [
+        {
+          "value": "thin",
+          "label": "тонкое"
+        },
+        {
+          "value": "traditional",
+          "label": "традиционное"
+        }
+      ],
+      "size": [
+        {
+          "value": 26,
+          "label": "26 см."
+        },
+        {
+          "value": 30,
+          "label": "30 см."
+        },
+        {
+          "value": 40,
+          "label": "40 см."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Чизбургер-пицца",
+      "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+      "price": 320,
+      "category": [
+        {
+          "value": "meat",
+          "label": "Мясные"
+        }
+      ],
+      "type": [
+        {
+          "value": "thin",
+          "label": "тонкое"
+        },
+        {
+          "value": "traditional",
+          "label": "традиционное"
+        }
+      ],
+      "size": [
+        {
+          "value": 26,
+          "label": "26 см."
+        },
+        {
+          "value": 30,
+          "label": "30 см."
+        },
+        {
+          "value": 40,
+          "label": "40 см."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ветчина и сыр",
+      "image": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/814ad4a5-44bd-4b65-86e2-e6c04e622fda.jpg",
+      "price": 595,
+      "category": [
+        {
+          "value": "meat",
+          "label": "Мясные"
+        }
+      ],
+      "type": [
+        {
+          "value": "thin",
+          "label": "тонкое"
+        },
+        {
+          "value": "traditional",
+          "label": "традиционное"
+        }
+      ],
+      "size": [
+        {
+          "value": 26,
+          "label": "26 см."
+        },
+        {
+          "value": 30,
+          "label": "30 см."
+        },
+        {
+          "value": 40,
+          "label": "40 см."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Сырный цыпленок",
+      "image": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/939d9c71-e137-4ad5-9e10-e3ba86ff09a0.jpg",
+      "price": 650,
+      "category": [
+        {
+          "value": "grill",
+          "label": "Гриль"
+        }
+      ],
+      "type": [
+        {
+          "value": "thin",
+          "label": "тонкое"
+        },
+        {
+          "value": "traditional",
+          "label": "традиционное"
+        }
+      ],
+      "size": [
+        {
+          "value": 26,
+          "label": "26 см."
+        },
+        {
+          "value": 30,
+          "label": "30 см."
+        },
+        {
+          "value": 40,
+          "label": "40 см."
+        }
+      ]
+    }
+  ]
+}
