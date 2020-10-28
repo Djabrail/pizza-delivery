@@ -11,6 +11,7 @@
       :key="product.id"
       :data="product" />
   </div>
+  <PageControls />
 </div>
 </template>
 
@@ -18,13 +19,14 @@
 import PizzaBlock from '@/components/PizzaBlock'
 import SortPopup from '@/components/SortPopup'
 import Categories from '@/components/Categories'
+import PageControls from '@/components/PageControls'
 import { mapGetters } from 'vuex'
 
 export default {
   name: 'Home',
-  components: {PizzaBlock, SortPopup, Categories},
+  components: {PizzaBlock, SortPopup, Categories, PageControls},
   computed: {
-    ...mapGetters(['products'])
+    ...mapGetters({products:"processedProducts"})
   }
 }
 </script>
