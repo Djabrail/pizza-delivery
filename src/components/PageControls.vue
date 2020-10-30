@@ -1,5 +1,5 @@
 <template>
-    <div v-if="pageCount > 1" class="nav">
+    <div v-if="pageCount > 1" class="pagination">
         <button 
             v-for="i in pageNumbers" 
             :key="i"
@@ -29,7 +29,7 @@ export default {
 
 
 <style scoped>
-.nav {
+.pagination {
     display: flex;
     flex-direction: row;
     align-items: center;
